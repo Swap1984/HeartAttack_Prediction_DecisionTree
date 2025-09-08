@@ -56,7 +56,7 @@ thal (Thalassemia)
 
 🔎 Interpretation
 
-The Decision Tree achieved ~81% accuracy, making it a reliable baseline predictor for heart attack risk.
+The Decision Tree achieved ~85.24% accuracy( Correlation Based Model), making it a reliable baseline predictor for heart attack risk.
 
 Chest pain type, maximum heart rate, and exercise-induced ST depression were the strongest predictors of heart attack risk.
 
@@ -83,8 +83,11 @@ In the correlation based model(CBM).
 Comparing the Accuracy, Precision and F1 scores of both model
 
 Accuracy: CBM (0.8524)> BFM(0.7868)
+
 Precision: CBM(0.8125) < BFM(0.8461)
+
 Recall: CBM(0.8965) > BFM(0.7096)
+
 F1 score: CBM(0.8524) > BFM(0.7719)
 
 The averge nested crossvalidation score for the BFM(0.77)shows that the model performs morderately Thus the correlation based model is best suited for classification wrt the given heart dataset.
