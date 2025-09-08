@@ -71,6 +71,23 @@ Hyperparameter tuning with cross-validation
 Handling class imbalance to boost recall
 
 Comparing with ensemble methods (Random Forest, XGBoost)
+-----
+
+Inference: By analysing and comparing the confusion matrices of the Best Fit Model(BFM) and the Correlation Based Model we see that,
+In the correlation based model(CBM).
+
+1.The proportion of predicting the true positive and true negetive values is the same and more that of the best fit model.
+2.The FP values for the CBM are less than the BFM.
+3.Also the FN values for the CBM are less than the BFM.
+
+Comparing the Accuracy, Precision and F1 scores of both model
+
+Accuracy: CBM (0.8524)> BFM(0.7868)
+Precision: CBM(0.8125) < BFM(0.8461)
+Recall: CBM(0.8965) > BFM(0.7096)
+F1 score: CBM(0.8524) > BFM(0.7719)
+
+The averge nested crossvalidation score for the BFM(0.77)shows that the model performs morderately Thus the correlation based model is best suited for classification wrt the given heart dataset.
 
 ✨ Personal Note
 
@@ -78,7 +95,6 @@ This project is another step in my transition into data science and machine lear
 I enjoy working on healthcare datasets because they have real-world impact, and interpretable models like Decision Trees are valuable in building trust with doctors and patients.
 
 Working on this analysis reinforced how important it is not only to look at accuracy but also at precision, recall, and feature importance, especially in healthcare where each misclassification can have critical consequences.
-
 
 ---
 
